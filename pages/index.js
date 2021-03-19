@@ -41,7 +41,7 @@ export async function getStaticProps() {
     props: {
       products: data.products
     },
-    revalidate: 60, // time in seconds, 
+    revalidate: 60, // time in seconds, tells next js to re generate page if given time as passed
     // notFound: false, // returns 404 if set to true
     // redirect: {
     //   destination: '/auth'
